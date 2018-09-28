@@ -56,7 +56,7 @@ const membersActions = [
   'movies.edit.own',
   'movies.remove.own',
 ];
-Users.groups.members.can(membersActions);
+Users.groups.guests.can(membersActions);
 
 /*
 

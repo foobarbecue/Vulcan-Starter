@@ -55,8 +55,8 @@ const schema = {
     // ...guests are anonymous users...
     canRead: ['guests'],
     /// ...members can only edit documents that they own. This is part of the default mutations. Back to modules/movies/collection.js...
-    canCreate: ['members'],
-    canUpdate: ['members'],
+    canCreate: ['guests'],
+    canUpdate: ['guests'],
   },
   year: {
     label: 'Year',

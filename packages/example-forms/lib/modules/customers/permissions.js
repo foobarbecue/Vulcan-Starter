@@ -6,8 +6,8 @@ Declare permissions for the customers collection.
 
 import Users from 'meteor/vulcan:users';
 
-Users.groups.members.can([
-  'customers.new',
-  'customers.edit.own',
-  'customers.remove.own',
+Users.groups.guests.can([
+  'customer.create',
+  'customer.edit.all',
+  'customer.remove.all',
 ])
