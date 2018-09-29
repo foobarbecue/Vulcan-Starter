@@ -39,7 +39,7 @@ const Movies = createCollection({
 
   // A mutation is the act of changing data on the server.
   // There are three default mutaitons: creating a new document, updating an existing document, and deleting a document. You can only do this if you own it.
-  mutations: getDefaultMutations('Movies'),
+  mutations: getDefaultMutations({ collectionName: 'Movies', typeName: 'Movie' }),
 
 });
 

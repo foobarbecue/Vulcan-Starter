@@ -51,7 +51,7 @@ class MoviesList extends Component {
 
     {this.state.newDocId ?
       <p>
-        New document id is: {this.state.newDocId}.
+        New document id is: {this.state.newDocId}
       </p>
       : null }
   </div>
